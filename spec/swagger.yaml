@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Xatal backend service
+  version: 0.0.1
+paths:
+  /:
+    summary: Index route
+    get:
+      description: GET on index
+      responses:
+        200:
+          description: Dummy description
