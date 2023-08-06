@@ -10,6 +10,6 @@ RUN npm install
 
 COPY . /app
 
-EXPOSE 42300
+EXPOSE 42100
 
 CMD ["npm", "run", "start:dev"]
